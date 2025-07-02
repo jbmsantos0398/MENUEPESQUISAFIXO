@@ -163,7 +163,24 @@ document.write('  '+todaysDate);
 <!--##############################################################################-->
 <!---------------------------------------------------------------------------------->
 <!-------------------------_blank --- _self----------------------------->
-<li><a href="https://www.portugues.com.br/gramatica/sinais-graficos-.html" target="_blank"><FONT COLOR="RED"><B>ATENÇÃO</FONT>, <FONT COLOR="#000000">NÃO COLOCAR ACENTOS (^ ´ ~ ,ETC) NAS PESQUISAS</B></FONT></a></li>
+<!---------------------------------------------------------------------------------->
+<marquee>CONTÉM CONTEÚDO ADULTO, <FONT COLOR="RED"><b>PROIBIDO PARA MENORES DE 18 ANOS</B></FONT>.</marquee>
+<!---------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
+<li><a href="https://www.portugues.com.br/gramatica/sinais-graficos-.html" target="_blank"><FONT COLOR="RED"><b id='piscando' style="transition-duration:0.5s">
+ATENÇÃO
+</b><script>
+var teste = 0;
+ setInterval(piscar, 500);
+ function piscar(){
+if(teste<1){
+teste++;
+document.getElementById('piscando').style.opacity = '1';
+} else{
+teste = 0; 
+document.getElementById('piscando').style.opacity = '0';
+}};
+</script></FONT>,<B> <FONT COLOR="#000000">NÃO COLOCAR ACENTOS (^ ´ ~ ) NAS PESQUISAS</B></FONT></a></li>
 <!---------------------------------------------------------------------------------->
 <li><a href="index_arquivos/MEUS SITES/1 - Copia.html" target="_self"><b>MEUS SITES</b></a></li>
 <!---------------------------------------------------------------------------------->
